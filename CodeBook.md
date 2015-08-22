@@ -6,19 +6,6 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ##Data set Description
                             
-1. subject     
-    * Subject ID
-      * Factor 1...30
-                
-2. activity
-    * Activity label
-      * LAYING
-      * SITTING
-      * STANDING
-      * WALKING
-      * WALKING_DOWNSTAIRS
-      * WALKING_UPSTAIRS
-                
                 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -48,6 +35,19 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 
+1. subject     
+    * Subject ID
+      * Factor 1...30
+                
+2. activity
+    * Activity label
+      * LAYING
+      * SITTING
+      * STANDING
+      * WALKING
+      * WALKING_DOWNSTAIRS
+      * WALKING_UPSTAIRS
+                
 3. tBodyAcc.mean...X
     * Mean of the mean signal in the direction of the X axis
 4. tBodyAcc.mean...Y
@@ -91,17 +91,33 @@ fBodyGyroJerkMag
     * Mean of the Standard deviation of the signal in the direction of the Z axis
 
 21. tBodyGyro.mean...X
+    * Mean of the mean signal in the direction of the X axis
 22. tBodyGyro.mean...Y
+    * Mean of the mean signal in the direction of the Y axis
 23. tBodyGyro.mean...Z
+    * Mean of the mean signal in the direction of the Z axis
+
 24. tBodyGyro.std...X
+    * Mean of the Standard deviation of the signal in the direction of the X axis
 25. tBodyGyro.std...Y
+    * Mean of the Standard deviation of the signal in the direction of the Y axis
 26. tBodyGyro.std...Z
+    * Mean of the Standard deviation of the signal in the direction of the Z axis
+
 27. tBodyGyroJerk.mean...X
+    * Mean of the mean signal in the direction of the X axis
 28. tBodyGyroJerk.mean...Y
+    * Mean of the mean signal in the direction of the Y axis
 29. tBodyGyroJerk.mean...Z
+    * Mean of the mean signal in the direction of the Z axis
+
 30. tBodyGyroJerk.std...X
+    * Mean of the Standard deviation of the signal in the direction of the X axis
 31. tBodyGyroJerk.std...Y
+    * Mean of the Standard deviation of the signal in the direction of the Y axis
 32. tBodyGyroJerk.std...Z
+    * Mean of the Standard deviation of the signal in the direction of the Z axis
+
 33. tBodyAccMag.mean..
 34. tBodyAccMag.std..
 35. tGravityAccMag.mean..

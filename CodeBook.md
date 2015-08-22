@@ -7,17 +7,17 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ##Data set Description
                             
 1. subject     
-        +Subject ID
-                +Factor 1...30
+    * Subject ID
+      * Factor 1...30
                 
 2. activity
-        + Activity label
-                + LAYING
-                + SITTING
-                + STANDING
-                + WALKING
-                + WALKING_DOWNSTAIRS
-                + WALKING_UPSTAIRS
+        * Activity label
+                * LAYING
+                * SITTING
+                * STANDING
+                * WALKING
+                * WALKING_DOWNSTAIRS
+                * WALKING_UPSTAIRS
                 
 3. tBodyAcc.mean...X
 4. tBodyAcc.mean...Y

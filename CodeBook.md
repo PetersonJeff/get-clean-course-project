@@ -1,4 +1,4 @@
-#                            Data Dictionary - Shity Data
+#                 Data Dictionary - Human Activity Recognition Using Smartphones Dataset
           
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -119,38 +119,87 @@ fBodyGyroJerkMag
     * Mean of the Standard deviation of the signal in the direction of the Z axis
 
 33. tBodyAccMag.mean..
+    * Mean of the mean observed signal
 34. tBodyAccMag.std..
+    * Mean of the Standard deviation of the signal
+
 35. tGravityAccMag.mean..
+    * Mean of the mean observed signal
 36. tGravityAccMag.std..
+    * Mean of the Standard deviation of the signal
+
 37. tBodyAccJerkMag.mean..
+    * Mean of the mean observed signal
 38. tBodyAccJerkMag.std..
+    * Mean of the Standard deviation of the signal
+
 39. tBodyGyroMag.mean..
+    * Mean of the mean observed signal
 40. tBodyGyroMag.std..
+    * Mean of the Standard deviation of the signal
+
 41. tBodyGyroJerkMag.mean..
+    * Mean of the mean observed signal
 42. tBodyGyroJerkMag.std..
+
 43. fBodyAcc.mean...X
+    * Mean of the mean signal in the direction of the X axis
 44. fBodyAcc.mean...Y
+    * Mean of the mean signal in the direction of the Y axis
 45. fBodyAcc.mean...Z
+    * Mean of the mean signal in the direction of the Z axis
+
 46. fBodyAcc.std...X
+    * Mean of the Standard deviation of the signal in the direction of the X axis
 47. fBodyAcc.std...Y
+    * Mean of the Standard deviation of the signal in the direction of the Y axis
 48. fBodyAcc.std...Z
+    * Mean of the Standard deviation of the signal in the direction of the Z axis
+
 49. fBodyAccJerk.mean...X
+    * Mean of the mean signal in the direction of the X axis
 50. fBodyAccJerk.mean...Y
+    * Mean of the mean signal in the direction of the Y axis
 51. fBodyAccJerk.mean...Z
+    * Mean of the mean signal in the direction of the Z axis
+
 52. fBodyAccJerk.std...X
+    * Mean of the Standard deviation of the signal in the direction of the X axis
 53. fBodyAccJerk.std...Y
+    * Mean of the Standard deviation of the signal in the direction of the Y axis
 54. fBodyAccJerk.std...Z
+    * Mean of the Standard deviation of the signal in the direction of the Z axis
+
 55. fBodyGyro.mean...X
+    * Mean of the mean signal in the direction of the X axis
 56. fBodyGyro.mean...Y
+    * Mean of the mean signal in the direction of the Y axis
 57. fBodyGyro.mean...Z
+    * Mean of the mean signal in the direction of the Z axis
+
 58. fBodyGyro.std...X
+    * Mean of the Standard deviation of the signal in the direction of the X axis
 59. fBodyGyro.std...Y
+    * Mean of the Standard deviation of the signal in the direction of the Y axis
 60. fBodyGyro.std...Z
+    * Mean of the Standard deviation of the signal in the direction of the Z axis
+
 61. fBodyAccMag.mean..
+    * Mean of the mean observed signal
 62. fBodyAccMag.std..
+    * Mean of the Standard deviation of the signal
+
 63. fBodyBodyAccJerkMag.mean..
+    * Mean of the mean observed signal
 64. fBodyBodyAccJerkMag.std..
+    * Mean of the Standard deviation of the signal
+
 65. fBodyBodyGyroMag.mean..
+    * Mean of the mean observed signal
 66. fBodyBodyGyroMag.std..
+    * Mean of the Standard deviation of the signal
+
 67. fBodyBodyGyroJerkMag.mean..
+    * Mean of the mean observed signal
 68. fBodyBodyGyroJerkMag.std..
+    * Mean of the Standard deviation of the signal

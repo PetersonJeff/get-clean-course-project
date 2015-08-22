@@ -14,8 +14,8 @@ To replicate the analysis:
 3.  run_analysis()
 
 This will produce 2 data sets:
-    baseData - primary tidy data set
-    meanData - average of each varialbe for each activity and subject
+    baseData - intermediate data set
+    meanData - average of each variable for each activity and subject
     
 run_analysis is dependent on the reshape2 and dplyr libraries
 
@@ -25,3 +25,5 @@ there is a seperate function to download and unzip the data if it is not already
     
 This will download the dataset from the coursera site into a data directory in the current working directory and 
 unzip the archive to the same data directory
+
+meanData.txt contains the resultant tidy data set
